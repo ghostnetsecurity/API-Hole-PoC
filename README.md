@@ -198,5 +198,5 @@ Legal Disclaimer:
 This repository contains information about publicly disclosed security vulnerabilities for educational and defensive purposes only. API Hole does not condone unauthorized access to computer systems. All demonstration code is simulated and does not perform actual exploitation.
 
 
-File: poc_simulation.py
+
 

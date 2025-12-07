@@ -137,56 +137,7 @@ if __name__ == "__main__":
     print("CSRF HTML template generated for analysis purposes.")
     
     print("\n" + "=" * 60)
-    print("REMINDER: This is for SECURITY EDUCATION only.")
-    print("Actual exploitation without authorization is ILLEGAL.")
 ```
-
-🚨 Detection & Response
-
-Indicators of Compromise (IoC)
-
-· Unexpected CSV files in /wp-content/uploads/ (pattern: export_*.csv)
-· Unusual POST requests to /wp-admin/admin-ajax.php with parse_export_data action
-· Multiple user data access requests from single IP
-Immediate Mitigation
-
-1. Update plugin to version 2.20 or higher immediately
-2. Search for and remove any suspicious CSV export files
-3. Implement web application firewall (WAF) rules blocking suspicious admin-ajax requests
-4. Audit user accounts for unauthorized access
-
-💼 Professional Remediation Services
-
-Why Standard Patching Isn't Enough
-
-Simply updating the plugin doesn't:
-
-· Determine if data was already exfiltrated
-· Identify compromised administrator accounts
-· Harden against similar future vulnerabilities
-· Provide compliance documentation for auditors
-
-API Hole Security Package ($15,000)
-
-Our comprehensive service includes:
-
-Service Component Description Value
-Forensic Analysis Determine if exploitation occurred, identify exfiltrated data $5,000
-Complete Remediation Secure patch deployment, configuration hardening, WAF rules $6,000
-Security Hardening Plugin audit, nonce implementation review, security headers $2,500
-Compliance Documentation GDPR/CCPA breach report, remediation certificate $1,500
-30-Day Monitoring Post-remediation vulnerability scanning, threat detection Included
-
-Total Value: $15,000**
-**Business Cost of Breach: $150,000+ (average for small business)
-
-Engagement Process
-
-1. Contact: ghostnetsec96@gmail.com with subject "CVE-2025-13606 Remediation"
-2. Assessment: We provide confidential exposure analysis
-3. Proposal: Fixed-price remediation plan within 24 hours
-4. Execution: 48-hour emergency remediation available
-5. Verification: Post-remediation audit and certification
 
 📞 Contact & Legal
 
@@ -194,8 +145,7 @@ For Immediate Assistance:
 Email: ghostnetsec96@gmail.com
 Response Time: < 4 hours for emergency cases
 
-Legal Disclaimer:
-This repository contains information about publicly disclosed security vulnerabilities for educational and defensive purposes only. API Hole does not condone unauthorized access to computer systems. All demonstration code is simulated and does not perform actual exploitation.
+Live Demo: See how this vulnerability can be leveraged to provide a free service here : ghostnet.pythonanywhere.com
 
 
 

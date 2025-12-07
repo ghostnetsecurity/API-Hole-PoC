@@ -145,7 +145,7 @@ For Immediate Assistance:
 Email: ghostnetsec96@gmail.com
 Response Time: < 4 hours for emergency cases
 
-Live Demo: See how this vulnerability can be leveraged to provide a free service here : ghostnet.pythonanywhere.com
+Live Demo: See how this vulnerability can be leveraged to provide a free service here : https://ghostnet.pythonanywhere.com
 
 
 
